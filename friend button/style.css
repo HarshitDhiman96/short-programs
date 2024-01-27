@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+ height: 435px;
+ width: 350px;
+ background-color: skyblue;
+ border-radius: 12px;
+ padding: 12px;
+ text-align: center;
+}
+.card img{
+    height: 50%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 12px 0px;
+}
+.card h5{
+    padding: 22px 0px ;
+    color: red;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.card button{
+    background-color: blue;
+    color: white;
+    height: 34px;
+    width: 84px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}
+#heartimg{
+ cursor: pointer;
+}
