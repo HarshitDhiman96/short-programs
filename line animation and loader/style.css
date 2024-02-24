@@ -1,0 +1,42 @@
+
+body{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    position: relative;
+    font-weight: 900;
+    font-size: 10vw;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 12px;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition: all ease 1s;
+}
+h1:hover::after{
+    width: 100%;
+}
+
+#loader{
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    border: 5px solid black;
+    border-radius: 50%;
+    border-top-color:white ;
+    animation: rotate 2s infinite;
+}
+@keyframes rotate {
+100%{
+    rotate: 360deg;
+}
+    
+}
